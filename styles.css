@@ -1,5 +1,80 @@
 body {
-    margin: 0;
-    background: pink;
-    text-align: center;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fef6f9;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+a {
+  color: #e75480;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+section {
+  padding: 3rem 1rem;
+}
+
+#hero {
+  background: #ffe3ed;
+  padding: 4rem 1rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project-card {
+  background: #fff;
+  margin: 1rem auto;
+  max-width: 600px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.875rem;
+  background-color: #fce4ec;
 }
